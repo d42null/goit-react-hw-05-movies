@@ -39,7 +39,7 @@ const Movies = () => {
   return (
     <main>
       <form onSubmit={onSubmit}>
-        <input name="query" type="text" />
+        <input name="query" type="text" autoFocus />
         <button type="submit">Search</button>
       </form>
       {loading && <Loader />}
